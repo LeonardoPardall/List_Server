@@ -93,15 +93,13 @@ docker run --rm --name local-zk -p 2181:2181 zookeeper:3.8
 Configuration notes
 
 - The code expects a Zookeeper connection string (e.g. `localhost:2181` or `zk1:2181,zk2:2181`) to be provided to the server. Check the server startup parameters or configuration file (search for `zookeeper`, `zk_connect` or similar in the source) and update it with your ensemble address.
-- If the project uses a compiled-in client library (C Zookeeper client), ensure the appropriate development headers and libraries are installed before building.
+
 
 Testing the integration
 
 - Start Zookeeper (using Docker as above).
 - Launch one or more server instances (pointing them to the Zookeeper address).
 - Confirm the servers register in Zookeeper (use `zkCli.sh` or a ZK client to list znodes), or check server logs for successful registration and leader election messages.
-
-If you want, I can add a short `./scripts/run-local-zk.sh` helper and a README snippet that documents the exact server flags to pass for Zookeeper connection.*** End Patch
 
 
 ## Important notes
