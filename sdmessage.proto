@@ -1,0 +1,60 @@
+/* Ficheiro sdmessage.proto */
+
+syntax = "proto3";
+
+enum Marca {
+    MARCA_TOYOTA = 0;
+    MARCA_BMW = 1;
+    MARCA_RENAULT = 2;
+    MARCA_AUDI = 3;
+    MARCA_MERCEDES = 4;
+}
+
+enum Combustivel {
+    COMBUSTIVEL_GASOLINA = 0;
+    COMBUSTIVEL_GASOLEO = 1;
+    COMBUSTIVEL_ELETRICO = 2;
+    COMBUSTIVEL_HIBRIDO = 3;
+}
+
+message Data {
+    int32 ano = 1;
+    float preco = 2;
+    Marca marca = 3;
+    string modelo = 4;
+    Combustivel combustivel = 5;
+}
+
+message message_t {
+    enum Opcode {
+        OP_BAD = 0;
+        OP_ADD = 10;
+        OP_GET = 20;
+        OP_DEL = 30;
+        OP_SIZE = 40;
+        OP_GETMODELS = 50;
+        OP_GETLISTBYTEAR = 60;
+        OP_ORDER = 70;
+        OP_ERROR = 99;
+        OP_BUSY = 100;
+        OP_READY = 101;
+    }
+    Opcode opcode = 1;
+
+    enum C_type {
+        CT_BAD = 0;
+        CT_DATA = 10;
+        CT_MARCA = 20;
+        CT_YEAR  = 30;
+        CT_MODEL = 40;
+        CT_RESULT = 50;
+        CT_LIST = 60;
+        CT_NONE = 70;
+    }
+    C_type c_type = 2;
+
+    Data data = 3;
+    sint32 result = 6;
+    repeated string models = 7;
+    repeated Data cars = 8;
+}

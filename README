@@ -1,0 +1,19 @@
+Grupo nº 07
+Afonso Henriques - 61826
+Leonardo Pardal - 61836
+Pedro Carvalho - 61800
+
+Compilar:
+make
+
+Limpar:
+make clean
+
+Ficheiros executáveis:
+binary/list_client <ip:port>
+binary/list_server <port>
+
+Informações importantes:
+- o projeto foi feito tendo em conta o que foi entendido do funcionamento dos binários fornecidos (por ordem do professor) e não de acordo com o enunciado de modo a poderem funcionar mutuamente.
+- o ano do carro é verificado de forma a ser um valor possível de acordo com a data do primeiro carro fabricado (1886) até o ano atual +1.
+- o server.log é criado na pasta em que o terminal se encontra.
