@@ -5,11 +5,9 @@
  * Este ficheiro define as funções necessárias para a
  * manipulação de uma lista encadeada de carros.
  *
- * Projeto: Sistemas Distribuídos 2025/2026
- * Autor: José Cecílio
- * Data: 13/09/2025
- */
+#endif
 #ifndef _LIST_H
+#define _LIST_H /* Módulo list */
 #define _LIST_H /* Módulo list */
 
 #include "list-private.h"

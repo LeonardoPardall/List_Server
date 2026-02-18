@@ -1,9 +1,4 @@
-/* 
- * Grupo nº 07
- * Afonso Henriques - 61826
- * Leonardo Pardal - 61836
- * Pedro Carvalho - 61800
- */
+/* Source file: data.c */
 
 /* Função que cria um novo elemento de dados data_t. 
  * Retorna a nova estrutura ou NULL em caso de erro. 

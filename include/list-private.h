@@ -3,9 +3,6 @@
  *
  * Estrutura interna da lista de automóveis.
  *
- * Projeto: Sistemas Distribuídos 2025/2026
- * Autor: José Cecílio
- * Data: 13/09/2025
  */
 #ifndef _LIST_PRIVATE_H
 #define _LIST_PRIVATE_H

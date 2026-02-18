@@ -1,12 +1,7 @@
-/**
- * Projeto: Sistemas Distribuídos 2025/2026
- * Autor: José Cecílio
- * Data: 4/10/2025
- */
 #ifndef _NETWORK_SERVER_H
 #define _NETWORK_SERVER_H
-
 #include "list.h"
+#include "sdmessage.pb-c.h"
 #include "sdmessage.pb-c.h"
 
 /* Função para preparar um socket de receção de pedidos de ligação

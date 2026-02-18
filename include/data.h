@@ -5,9 +5,6 @@
  * Este ficheiro define as funções e estruturas necessárias para a
  * manipulação de um bloco de dados representando um automóvel.
  *
- * Projeto: Sistemas Distribuídos 2025/2026
- * Autor: José Cecílio
- * Data: 13/09/2025
  */
 #ifndef _DATA_H
 #define _DATA_H /* Módulo data */

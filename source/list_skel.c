@@ -1,9 +1,4 @@
-/* 
- * Grupo nº 07
- * Afonso Henriques - 61826
- * Leonardo Pardal - 61836
- * Pedro Carvalho - 61800
- */
+/* Source file: list_skel.c */
 
 #include <stdlib.h>
 #include <stdio.h>

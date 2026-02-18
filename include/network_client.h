@@ -1,8 +1,4 @@
-/**
- * Projeto: Sistemas Distribuídos 2025/2026
- * Autor: José Cecílio
- * Data: 4/10/2025
- */
+/* Header: network_client.h */
 #ifndef _NETWORK_CLIENT_H
 #define _NETWORK_CLIENT_H
 

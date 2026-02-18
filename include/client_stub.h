@@ -5,10 +5,7 @@
 * Este ficheiro define as funções necessárias para a
 * manipulação de uma lista encadeada de carros.
 *
-* Projeto: Sistemas Distribuídos 2025/2026
-* Autor: José Cecílio
-* Data: 13/09/2025
-*/
+ */
 #ifndef _CLIENT_STUB_H
 #define _CLIENT_STUB_H
 

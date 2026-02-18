@@ -1,8 +1,3 @@
-# Grupo nº 07
-# Afonso Henriques - 61826
-# Leonardo Pardal - 61836
-# Pedro Carvalho - 61800
-
 PROTOC = $(PROTOC_DIR)/bin/protoc-c
 
 SRC_DIR := source

@@ -1,8 +1,4 @@
-/**
- * Projeto: Sistemas Distribuídos 2025/2026
- * Autor: José Cecílio
- * Data: 4/10/2025
- */
+/* Header: list_skel.h */
 #ifndef _LIST_SKEL_H
 #define _LIST_SKEL_H
 

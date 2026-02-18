@@ -1,9 +1,4 @@
-/* 
- * Grupo nº 07
- * Afonso Henriques - 61826
- * Leonardo Pardal - 61836
- * Pedro Carvalho - 61800
- */
+/* Header: chain_server.h */
 
 #ifndef CHAIN_SERVER_H
 #define CHAIN_SERVER_H
